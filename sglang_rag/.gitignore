@@ -1,0 +1,14 @@
+# 屏蔽大模型权重文件
+rag_qa/models/
+
+# 屏蔽 Python 缓存
+__pycache__/
+*.pyc
+
+# 屏蔽本地日志文件
+logs/
+
+# 屏蔽系统隐藏文件
+.DS_Store"rag_qa/models/`n__pycache__/`n*.pyc`nlogs/`n.idea/`ndata/`n*.pdf`n*.png`n*.jpg`n*.mp4`n*.db" > .gitignore
+
+.idea/
